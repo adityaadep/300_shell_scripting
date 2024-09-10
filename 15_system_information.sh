@@ -5,7 +5,7 @@ home_directory=$(echo $HOME)
 OS_name_version=$(uname -ov)
 available_shells=$(cat /etc/shells)
 harddisk_info=$(df -h)
-cpu_info=$(iostat -c)
+cpu_info=$(iostat -c)#lscpuinfo also works or /proc/cpuinfo
 mem_info$(free -h)
 running_process=$(ps -aux)
 
